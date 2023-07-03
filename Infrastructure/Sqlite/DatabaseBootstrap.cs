@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using Microsoft.Data.Sqlite;
+using Questao5.Domain.Entities;
 
 namespace Questao5.Infrastructure.Sqlite
 {
@@ -10,6 +11,19 @@ namespace Questao5.Infrastructure.Sqlite
         public DatabaseBootstrap(DatabaseConfig databaseConfig)
         {
             this.databaseConfig = databaseConfig;
+        }
+
+        public string CriarMovimento(Movimento movimento)
+        {
+            using var connection = new SqliteConnection(databaseConfig.Name);
+
+            string query = $"INSERT INTO movimento VALUES ( {movimento.IdMovimento}, {movimento.IdContaCorrente}, {movimento.DataMovimento}, {movimento.TipoMovimento}, {movimento.Valor} )";
+
+            var table = connection.Query<string>(query);
+
+            var teste = connection.Query<string>("select idmovimento IdMovimento, idcontacorrente IdContaCorrente,datamovimento DataMovimento,tipomovimento TipoMovimento,valor Valor from movimento").FirstOrDefault();
+
+            return "";
         }
 
         public void Setup()

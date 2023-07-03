@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FyciqD8u0GhtQIGeWqc8JIeLJKyJ7rjn+57Qpw3VYtl+xvITpwxLGjtHLly5pmWbl+IPJ7ZUI0KZIp45x/xe/g==",
+  "dgSpecHash": "0y+VuUAG3N8kcV0Rh5mTPClVg9rlkoExkXb6yceegT1fNOQijgPeX5MiFrEKBwpqtPzLbGYt2kr7b4wF/fvHDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vini\\Desktop\\ENTREVISTAS\\AmCom\\Questao5\\Questao5.csproj",
   "expectedPackageFiles": [
@@ -118,7 +118,11 @@
     "C:\\Users\\Vini\\.nuget\\packages\\xunit.core\\2.4.2\\xunit.core.2.4.2.nupkg.sha512",
     "C:\\Users\\Vini\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
     "C:\\Users\\Vini\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
-    "C:\\Users\\Vini\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512"
+    "C:\\Users\\Vini\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512",
+    "C:\\Users\\Vini\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.18\\microsoft.windowsdesktop.app.ref.6.0.18.nupkg.sha512",
+    "C:\\Users\\Vini\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.18\\microsoft.netcore.app.ref.6.0.18.nupkg.sha512",
+    "C:\\Users\\Vini\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.18\\microsoft.aspnetcore.app.ref.6.0.18.nupkg.sha512",
+    "C:\\Users\\Vini\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.18\\microsoft.netcore.app.host.win-x64.6.0.18.nupkg.sha512"
   ],
   "logs": []
 }
